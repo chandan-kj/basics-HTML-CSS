@@ -24,35 +24,36 @@
     <h2>@container</h2>
 
     <h3>fluid container</h3>
-    <div>This is container which will end at bottom of page</div>
+    <div class="center fluid">This is container which will end at bottom of page</div>
 
     <h3>center container</h3>
-    <div>This is container which will specify the container</div>
+    <div class="center middle">This is container which will specify the container of the width</div>
     <hr>
 
     <h2>Link</h2>
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="Link primary-link" href="/">Primary Link</a>
+    <a class="Link secondary-link" href="/">Secondary Link</a>
 
     <hr>
 
     <h2>List</h2>
     <h3>Unordered List</h3>
-    <ul>
-        <li>Hey</li>
+    <p>This list will not have bullet</p>
+    <ul class="non-bullet">
+        <li>Hey</li >
         <li>there</li>
-        <li>Bye</li>
+        <li>Bye</li >
     </ul>
 
-    <h3>Inline Unordered list</h3>
+    <h3 class="non-bullet"> Inline Unordered list</h3>
     <ul>
-        <li>Inline Hey</li>
-        <li>Inline there</li>
-        <li>Inline Bye</li>
+        <li class="list-item-inline">Inline Hey</li>
+        <li class="list-item-inline">Inline there</li>
+        <li class="list-item-inline">Inline Bye</li>
     </ul>
 
     <h3>Reversed Ordered List</h3>
-    <ol>
+    <ol reversed>
         <li>Milks</li>
         <li>Eggs</li>
         <li>Bread</li>
@@ -62,50 +63,54 @@
 
     <h2>Navigation Bar</h2>
 
-    <nav>
-        <div>Im Web Developer</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">Im Web Developer</div>
+        <ul class="non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="Link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Projects</a>
+            <li class="list-item-inline">
+                <a class="Link link-active" href="/">Projects</a>
             </li>
-            <li>
-                <a href="/">Blogs</a>
+            <li class="list-item-inline">
+                <a class="Link link-active" href="/">Blogs</a>
             </li>
         </ul>
     </nav>
 
     <hr>
 
-    <h2>Header</h2>
-
-    <header>
-        <img src="images/hero.svg" alt="" />
-        <h1>Heading hero image </h1>
+    <h2 >Header</h2>
+    <header class="hero">
+        <img class="hero-image" src="images/hero.svg" alt="" />
+        <h1 class="hero-heading">Chandan the <span class="heading-inverted">Web developer</span> </h1>
     </header>
     <hr>
-
-    <section>
-        <h3>White section</h3>
-        <p>This will have white</p>
+<h2>@Section</h2>
+    <section class="section">
+        <div class="center middle">
+        <h3 >White section</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
     </section>
 
-    <section>
+
+    <section class="section ow">
+        <div class="center middle">
         <h3>Off white section</h3>
-        <p>This will have gray bg</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.g</p>
+    </div>
     </section>
 
     <hr>
 
     <h2>Footer</h2>
-    <footer>
-        <div>Some text</div>
-        <ul>
-            <li>Social</li>
-            <li>Twitter</li>
-            <li>Facebbok</li>
+    <footer class="footer">
+        <div class="footer-header">Some text</div>
+        <ul class="social-link non-bullet">
+            <li class="list-item-inline"><a class="Link" href="/">Social</a></li>
+            <li class="list-item-inline"><a class="Link" href="/">Twitter</a></li>
+            <li class="list-item-inline"><a class="Link" href="/">Facebbok</a></li>
         </ul>
     </footer>
 
@@ -115,10 +120,7 @@
 
 
 
-    <div style="height: 30vh">
-
-    </div>
-
+    
 
 </body>
 
