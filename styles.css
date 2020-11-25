@@ -1,15 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
     --primary-color: #EF6F20;
     --sec-color: #6B7280;
-    --off-white: #D1D5DB
+    --off-white: #F9FAFB
+}
+* {
+    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+  margin: auto;
 }
+
 
 hr {
     margin: 2rem 0px;
@@ -17,16 +21,15 @@ hr {
 
 /* Container */
 
-.center {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border: 1rem;
+.container{
+    padding: 0rem 1rem;
 }
 
-.middle {
+.container .center {
     max-width: 600px;
-    margin: auto;
+    margin: auto
 }
+
 
 /* links */
 .Link {
@@ -73,9 +76,7 @@ hr {
 
 }
 
-a:hover {
-    background-color: black;
-}
+
 
 .navigation .nav-pills {
     text-align: right;
@@ -97,6 +98,7 @@ a:hover {
 }
 
 .hero .hero-image {
+    padding-top: 2rem;
     max-width: 350px;
     display: block;
     margin: auto;
@@ -116,9 +118,8 @@ a:hover {
     padding: 2rem;
 }
 
-.section h3 {
-    text-align: center;
-}
+
+
 
 .ow{
     background-color: var(--off-white);
@@ -141,6 +142,11 @@ a:hover {
     color: white;
 }
 
+.footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
 .footer ul{
-    padding-inline-start: 0px;
+    padding-inline-start: 10px;
 }
