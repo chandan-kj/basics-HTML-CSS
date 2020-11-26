@@ -3,15 +3,15 @@
 :root {
     --primary-color: #EF6F20;
     --sec-color: #6B7280;
-    --off-white: #F9FAFB
+    --off-white:#D1D5DB;
 }
-* {
-    box-sizing: border-box;
-}
+
 
 body {
     font-family: 'Roboto', sans-serif;
-  margin: auto;
+   
+    margin: auto;
+    
 }
 
 
@@ -23,11 +23,13 @@ hr {
 
 .container{
     padding: 0rem 1rem;
+    text-align: left;
 }
 
 .container .center {
     max-width: 600px;
-    margin: auto
+    margin: auto;
+    
 }
 
 
@@ -73,8 +75,9 @@ hr {
 .navigation .nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
-
+text-align: left;
 }
+
 
 
 
@@ -84,7 +87,7 @@ hr {
 
 .navigation .Link {
     color: white;
-    text-align: right;
+    
 }
 
 .navigation .link-active {
@@ -95,6 +98,7 @@ hr {
 .hero {
     text-align: center;
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-image {
@@ -105,7 +109,7 @@ hr {
 }
 
 .hero .hero-heading {
-   
+   text-align: center;
     padding-top: 1rem;
     color: var(--sec-color);
 }
@@ -118,16 +122,25 @@ hr {
     padding: 2rem;
 }
 
-
+.section h1{
+    text-align: left;
+}
 
 
 .ow{
     background-color: var(--off-white);
     border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    
+
 }
 
 /* footer */
+
+.margin-md{
+    margin-top: 1.5rem;
+}
+
+
 
 .footer{
     background-color: var(--primary-color);
