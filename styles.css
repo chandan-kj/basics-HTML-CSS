@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #EF6F20;
-    --sec-color: #6B7280;
-    --off-white:#D1D5DB;
+    --primary-color: rgb(24, 21, 21);
+    --sec-color:hsl(213, 22%, 32%);
+    --off-white:#F3F4F6;
 }
 
 
 body {
     font-family: 'Roboto', sans-serif;
-   
-    margin: auto;
-    
-}
+    max-width: 90%;
+    margin: auto; 
 
+}
 
 hr {
     margin: 2rem 0px;
@@ -27,11 +26,9 @@ hr {
 }
 
 .container .center {
-    max-width: 600px;
-    margin: auto;
-    
+    max-width: 600px; 
+     margin: auto;  
 }
-
 
 /* links */
 .Link {
@@ -65,33 +62,47 @@ hr {
 /* Navigation */
 
 .navigation {
-    background-color: var(--primary-color);
-    color: white;
+    margin-top: 1rem;
     padding: 1rem;
+    background-color: var(--primary-color);
+    color: rgb(24, 21, 21);
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    background: linear-gradient(to right,
+    #7be6ec,#46e6d9 );
+}
+
+
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: flex-end;
 }
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.1rem;
-text-align: left;
+    font-size: 1.2rem; 
 }
-
-
-
 
 .navigation .nav-pills {
     text-align: right;
 }
 
 .navigation .Link {
-    color: white;
+   color: black;
     
 }
 
 .navigation .link-active {
     font-weight: bold;
+}
+
+.link-active{
+    font-weight: bold;
+    border: 2px solid var( --sec-color);
+     padding: 0.5rem;
+     border-radius: 10px;
 }
 
 /* header */
@@ -108,6 +119,11 @@ text-align: left;
     margin: auto;
 }
 
+.image{
+    padding-top: 2rem;
+    max-width: 200px;
+}
+
 .hero .hero-heading {
    text-align: center;
     padding-top: 1rem;
@@ -115,7 +131,7 @@ text-align: left;
 }
 
 .hero .hero-heading .heading-inverted {
-    color: var(--primary-color);
+    color: var(rgb(24, 21, 21));
 }
 
 .section{
@@ -126,12 +142,9 @@ text-align: left;
     text-align: left;
 }
 
-
 .ow{
     background-color: var(--off-white);
     border-top-right-radius: 1rem;
-    
-
 }
 
 /* footer */
@@ -140,24 +153,24 @@ text-align: left;
     margin-top: 1.5rem;
 }
 
-
-
 .footer{
-    background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    background: linear-gradient(to right,
+    #7be6ec,#46e6d9 );
+    padding: 1rem 1rem;
     text-align: center;
-    color: white;
+    color: rgb(24, 21, 21);
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
 
 .footer .Link{
-    color: white;
+    color: rgb(24, 21, 21);
 }
 
 .footer-header{
     font-weight: bold;
     font-size: large;
+    margin-bottom: 2px;
 }
 
 .footer ul{
