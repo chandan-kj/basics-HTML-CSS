@@ -4,6 +4,7 @@
     --primary-color: rgb(24, 21, 21);
     --sec-color:hsl(213, 22%, 32%);
     --off-white:#F3F4F6;
+    --nav-color:#7be6ec;
 }
 
 
@@ -65,7 +66,7 @@ hr {
 .navigation {
     margin-top: 1rem;
     padding: 1rem;
-    background-color: #7be6ec;
+    background-color:var(--nav-color);
     color: rgb(24, 21, 21);
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -126,12 +127,13 @@ hr {
 .hero .hero-heading {
    text-align: center;
     padding-top: 1rem;
-    color: var(--sec-color);
+    color: black;
 }
 
 .hero .hero-heading .heading-inverted {
-    color: var(rgb(24, 21, 21));
+    color: black;
 }
+
 
 .section{
     padding: 2rem;
@@ -144,6 +146,8 @@ hr {
 .ow{
     background-color: var(--off-white);
     border-top-right-radius: 1rem;
+    padding-top: 4px;
+    padding-bottom: 1.5rem;
 }
 
 /* footer */
@@ -153,7 +157,7 @@ hr {
 }
 
 .footer{
-    background-color: #7be6ec;
+    background-color:var(--nav-color);
     padding: 1rem 1rem;
     text-align: center;
     color: rgb(24, 21, 21);
