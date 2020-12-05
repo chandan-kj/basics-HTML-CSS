@@ -3,7 +3,7 @@
 :root {
     --primary-color: rgb(24, 21, 21);
     --sec-color:hsl(213, 22%, 32%);
-    --off-white:#F3F4F6;
+    --off-white: white;
     --nav-color:#7be6ec;
 }
 
@@ -144,7 +144,7 @@ hr {
 }
 
 .ow{
-    background-color: var(--off-white);
+    background-color:var(--off-white);
     border-top-right-radius: 1rem;
     padding-top: 4px;
     padding-bottom: 1.5rem;
